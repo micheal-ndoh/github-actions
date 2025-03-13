@@ -13,10 +13,8 @@ fn main() {
         age: 30,
     };
 
-             let mich = String::from("Hello");
-        println!("{:?}", user);
-
-
+    let mich = String::from("Hello");
+    println!("{:?}", user);
 
     let num = 1..20;
 
@@ -26,7 +24,7 @@ fn main() {
 }
 
 fn find_value(vec: &[i32], target: i32) -> Option<i32> {
-        for &value in vec {
+    for &value in vec {
         if value == target {
             return Some(value);
         }
