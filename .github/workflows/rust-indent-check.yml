@@ -1,4 +1,4 @@
-name: Rust Formatting & Linting check
+name: Rust Formatting & Linting Check
 
 on:
   push:
